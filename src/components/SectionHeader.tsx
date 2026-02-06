@@ -8,7 +8,7 @@ interface SectionHeaderProps {
 }
 
 const SectionHeader: React.FC<SectionHeaderProps> = ({ title, subtitle, light, left }) => (
-    <div className={`mb-8 ${left ? 'text-left' : 'text-center'} max-w-4xl ${!left && 'mx-auto'} px-4`}>
+    <div className={`mb-6 ${left ? 'text-left' : 'text-center'} max-w-4xl ${!left && 'mx-auto'} px-4`}>
         <h2 className={`text-4xl md:text-5xl font-extrabold mb-6 leading-tight ${light ? 'text-white' : 'text-slate-900'}`}>
             {title}
         </h2>

@@ -19,7 +19,7 @@ const Outsourcing: React.FC = () => {
                         <p className="text-sm font-bold opacity-80 uppercase tracking-widest">Compliance</p>
                     </div>
                 </div>
-                <div className="order-1 lg:order-2 space-y-12">
+                <div className="order-1 lg:order-2 space-y-8">
                     <SectionHeader
                         left
                         title="Terceirização Estratégica"
@@ -41,7 +41,7 @@ const Outsourcing: React.FC = () => {
                             </div>
                         ))}
                     </div>
-                    <p className="text-base md:text-lg font-bold text-verttyce-primary mt-4">
+                    <p className="text-base md:text-lg font-bold text-verttyce-primary mt-2">
                         Terceirização sem risco não é promessa. É expertise, estrutura jurídica, governança e seguro garantia.
                     </p>
                 </div>
