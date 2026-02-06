@@ -14,13 +14,13 @@ const About: React.FC = () => (
                 <div>
                     <h2 className="text-5xl font-black text-slate-900 mb-8 leading-tight">Compromisso com a <span className="text-verttyce-primary">Excelência Operacional</span></h2>
                     <p className="text-xl text-slate-600 leading-relaxed mb-8 font-medium">
-                        A VERTTYCE não é apenas uma agência de empregos. Somos o braço estratégico de RH para empresas que não aceitam mediocridade em sua força de trabalho.
+                        Somos o braço estratégico de RH para empresas que não aceitam riscos trabalhistas, ineficiência operacional e perda de produtividade.
                     </p>
                     <div className="grid gap-6">
                         {[
-                            { title: "Compliance Total", text: "Processos 100% alinhados à legislação vigente e LGPD." },
-                            { title: "Mitigação de Riscos", text: "Redução drástica de passivos trabalhistas e operacionais." },
-                            { title: "Foco em KPIs", text: "Resultados medidos através de SLAs e métricas de performance." }
+                            { title: "Compliance Total", text: "Processos blindados e alinhados à legislação vigente e LGPD, prontos para auditorias e compliance corporativo." },
+                            { title: "Mitigação de Riscos", text: "Redução efetiva de passivos trabalhistas, turnover e custos ocultos com mão de obra." },
+                            { title: "Foco em KPIs", text: "Gestão orientada a dados, com SLAs, métricas de performance e ROI mensurável da terceirização.." }
                         ].map((item, idx) => (
                             <div key={idx} className="flex items-start space-x-5 group p-4 rounded-2xl hover:bg-slate-50 transition-colors">
                                 <div className="mt-1 bg-verttyce-accent/10 p-2 rounded-xl group-hover:bg-verttyce-accent transition-colors">
