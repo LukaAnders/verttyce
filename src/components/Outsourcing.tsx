@@ -23,8 +23,11 @@ const Outsourcing: React.FC = () => {
                     <SectionHeader
                         left
                         title="Terceirização Estratégica"
-                        subtitle="Gestão completa do ciclo de vida do colaborador, garantindo eficiência e paz de espírito jurídica."
+                        subtitle="A VERTTYCE implementa modelos de terceirização com mecanismos de mitigação financeira e jurídica, incluindo Seguro Garantia para verbas trabalhistas e previdenciárias, assegurando governança corporativa, previsibilidade de custos e proteção patrimonial."
                     />
+                    <p className="text-lg md:text-xl font-bold text-verttyce-primary mt-6">
+                        Terceirização sem risco não é promessa. É expertise, estrutura jurídica, governança e seguro garantia.
+                    </p>
                     <div className="grid gap-6">
                         {[
                             "Alocação técnica com gestão administrativa integrada",
