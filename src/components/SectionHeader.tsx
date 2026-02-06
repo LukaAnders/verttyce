@@ -13,7 +13,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({ title, subtitle, light, l
             {title}
         </h2>
         {subtitle && (
-            <p className={`text-lg md:text-xl ${light ? 'text-slate-400' : 'text-slate-600'} leading-relaxed`}>
+            <p className={`text-base md:text-lg ${light ? 'text-slate-400' : 'text-slate-600'} leading-relaxed`}>
                 {subtitle}
             </p>
         )}
