@@ -25,9 +25,6 @@ const Outsourcing: React.FC = () => {
                         title="Terceirização Estratégica"
                         subtitle="A VERTTYCE implementa modelos de terceirização com mecanismos de mitigação financeira e jurídica, incluindo Seguro Garantia para verbas trabalhistas e previdenciárias, assegurando governança corporativa, previsibilidade de custos e proteção patrimonial."
                     />
-                    <p className="text-base md:text-lg font-bold text-verttyce-primary mt-4">
-                        Terceirização sem risco não é promessa. É expertise, estrutura jurídica, governança e seguro garantia.
-                    </p>
                     <div className="grid gap-6">
                         {[
                             "Alocação técnica com gestão administrativa integrada",
@@ -44,6 +41,9 @@ const Outsourcing: React.FC = () => {
                             </div>
                         ))}
                     </div>
+                    <p className="text-base md:text-lg font-bold text-verttyce-primary mt-4">
+                        Terceirização sem risco não é promessa. É expertise, estrutura jurídica, governança e seguro garantia.
+                    </p>
                 </div>
             </div>
         </section>
