@@ -23,27 +23,57 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="grid md:grid-cols-4 gap-8 border-b border-white/5 pb-8">
-                    <div>
-                        <h4 className="font-black text-white text-lg mb-6 uppercase tracking-widest">Navegação</h4>
-                        <ul className="space-y-4 text-slate-400 font-bold text-base">
-                            <li><a href="#quem-somos" className="hover:text-verttyce-primary transition-colors">Sobre</a></li>
-                            <li><a href="#solucoes" className="hover:text-verttyce-primary transition-colors">Soluções</a></li>
-                            <li><a href="#processo" className="hover:text-verttyce-primary transition-colors">Metodologia</a></li>
-                            <li><a href="#segmentos" className="hover:text-verttyce-primary transition-colors">Segmentos</a></li>
-                        </ul>
+                {/* Footer Content Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-12 border-b border-white/10 pb-12">
+
+                    {/* Col 1: Logo and Description */}
+                    <div className="lg:col-span-2">
+                        <img src="/verttycelogo.png" alt="Verttyce Logo" className="h-20 mb-6" />
+                        <p className="text-slate-400 text-base font-light max-w-sm leading-relaxed">
+                            A VERTTYCE é uma empresa especializada
+                            em recrutamento, seleção e terceirização de
+                            mão de obra para empresas de todos os portes.
+                        </p>
                     </div>
+
+                    {/* Col 2: Soluções */}
                     <div>
-                        <h4 className="font-black text-white text-lg mb-6 uppercase tracking-widest">Atendimento</h4>
-                        <ul className="space-y-4 text-slate-400 font-bold text-base">
-                            <li>WhatsApp Corporativo</li>
+                        <h4 className="font-black text-white text-base mb-6 uppercase tracking-widest">Soluções</h4>
+                        <ul className="space-y-4 text-slate-400 font-light text-base">
+                            <li><a href="#solucoes" className="hover:text-verttyce-primary transition-colors">Diagnóstico Organizacional</a></li>
+                            <li><a href="#solucoes" className="hover:text-verttyce-primary transition-colors">Recrutamento Estratégico</a></li>
+                            <li><a href="#solucoes" className="hover:text-verttyce-primary transition-colors">Desenvolvimento de Lideranças</a></li>
+                            <li><a href="#solucoes" className="hover:text-verttyce-primary transition-colors">Cultura e Engajamento</a></li>
                         </ul>
                     </div>
 
+                    {/* Col 3: Autoridade */}
+                    <div>
+                        <h4 className="font-black text-white text-base mb-6 uppercase tracking-widest">Autoridade</h4>
+                        <ul className="space-y-4 text-slate-400 font-light text-base">
+                            <li><span className="text-verttyce-secondary mr-2">✓</span>Compliance e Governança</li>
+                            <li><span className="text-verttyce-secondary mr-2">✓</span>Eficiência Operacional</li>
+                            <li><span className="text-verttyce-secondary mr-2">✓</span>Atuação Estratégica</li>
+                        </ul>
+                    </div>
+
+                    {/* Col 4: Contato */}
+                    <div>
+                        <h4 className="font-black text-white text-base mb-6 uppercase tracking-widest">Contato</h4>
+                        <ul className="space-y-4 text-slate-400 font-light text-base">
+                            <li><a href="mailto:contato@verttyce.com.br" className="hover:text-verttyce-primary transition-colors">contato@verttyce.com.br</a></li>
+                            <li>WhatsApp Corporativo</li>
+                        </ul>
+                        <a href="#" className="inline-block mt-6 bg-verttyce-primary/10 text-verttyce-primary font-bold text-sm py-3 px-5 rounded-lg hover:bg-verttyce-primary/20 transition-colors">
+                            Solicite um Diagnóstico
+                        </a>
+                    </div>
                 </div>
+
+                {/* Bottom Bar: Copyright & Legal */}
                 <div className="flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs font-bold tracking-widest pt-8">
-                    <p>© 2026 VERTTYCE CAPITAL HUMANO. TODOS OS DIREITOS RESERVADOS.</p>
-                    <div className="flex space-x-10 mt-8 md:mt-0 uppercase">
+                    <p>© {new Date().getFullYear()} VERTTYCE CAPITAL HUMANO. TODOS OS DIREITOS RESERVADOS.</p>
+                    <div className="flex space-x-6 md:space-x-10 mt-8 md:mt-0 uppercase">
                         <a href="#" className="hover:text-white transition-colors">Privacidade</a>
                         <a href="#" className="hover:text-white transition-colors">Compliance</a>
                         <a href="#" className="hover:text-white transition-colors">LGPD</a>
