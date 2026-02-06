@@ -4,16 +4,17 @@ import { Building2, Truck, HeartPulse, Users, Store, ClipboardCheck } from 'luci
 
 const Segments: React.FC = () => {
     const segments = [
-        { icon: <Building2 />, name: "Indústria & Facilities" },
+        { icon: <Building2 />, name: "Indústria" },
+        { icon: <ClipboardCheck />, name: "Facilities, Food Service & Serviços Gerais" },
         { icon: <Truck />, name: "Logística & Transporte" },
-        { icon: <HeartPulse />, name: "Saúde & Farmacêutico" },
-        { icon: <Users />, name: "Corporate & Back Office" },
-        { icon: <Store />, name: "Varejo & E-commerce" },
-        { icon: <ClipboardCheck />, name: "Serviços & Limpeza" }
+        { icon: <HeartPulse />, name: "Saúde" },
+        { icon: <Users />, name: "Corporativo & Administrativo" },
+        { icon: <Store />, name: "Comércio & Varejo" },
+    
     ];
 
     return (
-        <section id="segmentos" className="py-32 bg-white relative">
+        <section id="segmentos" className="py-24 bg-white relative">
             <div className="container mx-auto px-6">
                 <SectionHeader
                     title="Atuação Especializada"

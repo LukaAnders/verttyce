@@ -2,7 +2,7 @@ import React from 'react';
 import { Award, CheckCircle2 } from 'lucide-react';
 
 const About: React.FC = () => (
-    <section id="quem-somos" className="py-32 bg-white relative overflow-hidden">
+    <section id="quem-somos" className="py-24 bg-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 z-0"></div>
         <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center relative z-10">
             <div className="space-y-10">

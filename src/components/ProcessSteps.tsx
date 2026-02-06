@@ -10,7 +10,7 @@ const ProcessSteps: React.FC = () => {
     ];
 
     return (
-        <section id="processo" className="py-32 bg-white">
+        <section id="processo" className="py-24 bg-white">
             <div className="container mx-auto px-6">
                 <div className="bg-verttyce-dark rounded-[4rem] p-16 md:p-24 overflow-hidden relative shadow-[0_50px_100px_-20px_rgba(15,23,42,0.6)]">
                     <div className="absolute top-0 right-0 w-[40rem] h-[40rem] bg-verttyce-primary/10 blur-[150px] rounded-full"></div>

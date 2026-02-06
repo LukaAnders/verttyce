@@ -10,7 +10,7 @@ const Results: React.FC = () => {
     ];
 
     return (
-        <section id="resultados" className="py-32 bg-verttyce-dark text-white relative overflow-hidden">
+        <section id="resultados" className="py-24 bg-verttyce-dark text-white relative overflow-hidden">
             <div className="absolute inset-0 bg-grid-slate-200 opacity-[0.02]"></div>
             <div className="container mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-24 items-center">

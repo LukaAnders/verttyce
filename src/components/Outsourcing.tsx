@@ -4,7 +4,7 @@ import { CheckCircle2, ChevronRight } from 'lucide-react';
 
 const Outsourcing: React.FC = () => {
     return (
-        <section className="py-32 bg-slate-50 relative overflow-hidden">
+        <section className="py-24 bg-slate-50 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1/2 bg-white z-0"></div>
             <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-24 items-center relative z-10">
                 <div className="order-2 lg:order-1 relative">

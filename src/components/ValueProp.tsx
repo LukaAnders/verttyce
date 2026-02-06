@@ -37,7 +37,7 @@ const ValueProp: React.FC = () => {
     ];
 
     return (
-        <section id="solucoes" className="py-32 bg-slate-900 relative overflow-hidden">
+        <section id="solucoes" className="py-24 bg-slate-900 relative overflow-hidden">
             <div className="absolute inset-0 z-0 bg-dot-pattern opacity-[0.05]"></div>
             <div className="container mx-auto px-6 relative z-10">
                 <SectionHeader
